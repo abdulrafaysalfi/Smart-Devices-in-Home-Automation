@@ -1,0 +1,35 @@
+.deviceItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #f8715b;
+  box-shadow: 3px 3px 3px #f8715b;
+  width: 15%;
+  height: 25vh;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+.deviceItem:hover {
+  cursor: pointer;
+}
+.icon {
+  padding-top: 20px;
+}
+.deviceItem > h4 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.deviceItem > h3 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #f8715b;
+}
+.deviceItem__icon {
+  color: #f8715b;
+}

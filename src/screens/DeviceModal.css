@@ -1,0 +1,33 @@
+.modal__body {
+  display: flex;
+}
+.body__left {
+  flex: 0.4;
+  height: 80vh;
+  background-color: #6fc8dc;
+}
+.body__left > h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+.body__left > p {
+  text-align: center;
+}
+.body__right {
+  flex: 0.6;
+  height: 80vh;
+  padding: 0px 20px;
+}
+.body__left > h3 {
+  text-align: center;
+  font-weight: 400;
+  margin-top: 60vh;
+  margin-bottom: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.body__left > h3:hover {
+  color: white;
+}

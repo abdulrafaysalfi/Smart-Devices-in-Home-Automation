@@ -1,0 +1,18 @@
+.sidebarItem {
+  color: gray;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.sidebarItem > h3 {
+  font-weight: 200;
+  margin-left: 10px;
+  font-size: 16px;
+  align-items: center;
+  margin-top: 5px;
+}
+.sidebarItem > h3:hover {
+  color: white;
+  cursor: pointer;
+}
